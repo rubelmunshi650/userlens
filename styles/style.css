@@ -28,17 +28,25 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 698px;
+    height: 600px;
 }
 .header-container{
     width: 1140px;
-    height: 698px;
+    height: 600px;
     margin: 0 auto;
 }
 .nav-container{
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+}
+.banner{
+    padding: 120px 0;
+    text-align: center;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
