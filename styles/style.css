@@ -26,7 +26,7 @@ body{
 }
 /* header css start */
 header{
-    background: url('/Assets/Hero-bg.png');
+    background: url('../Assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
