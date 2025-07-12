@@ -77,6 +77,51 @@ header{
 }
 /* action secton css end */
 
+/* user-review-section css start */
+.user-review-section{
+    width: 1140px;
+    margin: 120px auto;
+}
+.user-review-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.review-card-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'inter', sans-serif;
+}
+.user-card{
+    /* border: 1px dashed #00000094; */
+    border-radius: 8px;
+    box-shadow: 0 6.4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #F2EDED;
+    padding: 20px;
+}
+.user-card h6 img{
+    width: 20px;
+    height: 20px;
+}
+.user-card h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+.avatar-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.avatar-container div{
+    margin-right: 10px;
+}
+.avatar-container div h5{
+    font-size: 18px;
+}
+/* user-review-section css end */
+
 /* productive users section css start */
 .productive-users-section-container{
     width: 1140px;
