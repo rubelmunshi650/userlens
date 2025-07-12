@@ -178,7 +178,7 @@ header{
 /* newsletter section css start */
 .newsletter-section{
     width: 1140px;
-    margin: 50px auto;
+    margin: 100px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -226,3 +226,32 @@ textarea::placeholder{
 }
 
 /* newsletter section css end */
+
+/* footer css start */
+footer{
+    background-color:#F2EDED ;
+    border-top: 1px solid #0000002d;
+}
+.footer{
+    text-align: center;
+    width: 531px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #8987A1;
+}
+.footer img{
+    margin-bottom: 20px;
+}
+.menu-container{
+    margin: 20px 0 0;
+}
+.menu-container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-container ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8987A1;
+}
+/* footer css end */
